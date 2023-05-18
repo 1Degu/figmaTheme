@@ -1,0 +1,548 @@
+* {
+    padding: 0;
+    margin: auto;
+    border: 0;
+    font-family: "Heebo", sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 96px;
+    max-width: 1440px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(247, 157, 29, 1) white rgba(204, 204, 204, 0.2);
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .header div a {
+    color: rgba(110, 105, 98, 1);
+  }
+  
+  .navigation {
+    max-width: 176px;
+    height: 16px;
+  }
+  .navigationBar {
+    margin: auto;
+    max-width: 1440px;
+    height: 96px;
+  }
+  
+  #navList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #navList li a {
+    text-decoration: none;
+    color: rgba(25, 25, 25, 1);
+  }
+  
+  #topLogo {
+    width: 126px;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #logo {
+    max-width: 126px;
+    
+  }
+  .navIcons {
+    max-width: 16px;
+    height: 16px;
+    padding-right: 15px;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #home {
+    padding-left: 90px;
+  }
+  
+  #contact {
+    padding-right: 90px;
+  }
+  
+  .slides {
+    display: none;
+    margin: auto;
+    max-width: 1440px;
+    
+  }
+  
+  #carouselCard {
+    max-width: 300px;
+    
+  }
+    .owl-carousel.owl-fade-in .owl-item {  
+    opacity: 0.6;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .owl-carousel.owl-fade-in .owl-item.active {
+    opacity: 1;
+  } */
+  
+  .categories {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1440px;
+    background-color: rgba(255, 255, 255, 1);
+    padding-bottom: 70px;
+  }
+  
+  .roundButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    max-width: 1440px;
+  }
+  
+  .roundButton {
+    background-image:url(https://picsum.photos/id/28/200/300);
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 40px;
+    height: 140px;
+    width: 140px;
+    border-radius: 70%;
+    cursor: pointer;
+  }
+  
+  .roundButton:hover {
+    background-image: unset;
+    background-color: rgba(247, 157, 29, 1);
+  }
+  
+  #sign {
+    display: none;
+  }
+  
+  .roundButton:hover #sign {
+    display: block;
+  }
+  
+  /* Neveikia.roundButton:hover #buttonText {
+   color:rgba(247, 157, 29, 1);
+   height: 140px;
+  } */
+  
+  .parent:hover .child {
+    color: rgba(247, 157, 29, 1);
+  }
+  
+  #buttonText {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .featured {
+    margin: auto;
+    max-width: 1440px;
+    background-color: rgba(240, 226, 208, 0.5);
+  }
+  #featExp {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  #cardText {
+    font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  }
+  
+  #journey {
+    padding-bottom: 20px;
+    color: rgba(110, 105, 98, 1);
+  }
+  mark.red {
+    color: red;
+    background: none;
+  }
+  
+  /*.cardImage {
+    max-width:420px;
+  } /*
+  /*
+  .cardImage {
+    width:180px;
+    height:170px;
+    background-repeat:no-repeat;
+    background-size:cover;
+  } 
+  */
+  
+  .cardImage {
+    width: 420px;
+    height: 236px;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+  
+  .popularPosts .cardImage {
+    margin-right: 10px;
+  }
+  .latestPosts {
+    padding: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(204, 204, 204, 0.2);
+  }
+  #pop {
+    padding-top: 30px;
+  }
+  #exp {
+    padding-bottom: 40px;
+  }
+  .cardContent {
+    max-width: 420px;
+  }
+  .allCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 60px;
+  }
+  #deColor {
+    text-decoration-color: rgba(247, 157, 29, 1);
+  }
+  
+  .popularPosts {
+    margin: auto;
+    max-width: 1440px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .popularRoundButton {
+    background-color: white;
+    color: black;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(240, 226, 208, 0.5);
+    padding: none;
+    font-size: 13px;
+    height: 30px;
+    width: 30px;
+    border-radius: 70%;
+    cursor: pointer;
+    
+  }
+  
+  #h3Latest {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #tagLinks {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tags h3 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tags {
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(204, 204, 204, 0.1);
+  }
+  
+  .tags a {
+    text-decoration-color: rgba(247, 157, 29, 1);
+  }
+  
+  #tagLinks li {
+    margin-right: 10px;
+  }
+  .aboutAuthor {
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(204, 204, 204, 0.1);
+    padding-top: 10px;
+  }
+  
+  #aboutAuthor {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cardsAndSidebar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 70px;
+  }
+  
+  .sidebarCardImage {
+    width: 68px;
+    height: 84px;
+  }
+  .popularPostsCards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 952px;
+  }
+  .popularPostsCard {
+    display: flex;
+    padding-bottom: 35px;
+  }
+  
+  #sideBar {
+    max-width: 308px;
+  }
+  #sideBanner {
+    max-width: 308px;
+    max-height: 384px;
+  }
+  
+  #advertisiment {
+    padding-top: 10px;
+  }
+  
+  .subscribe {
+    margin: auto;
+    max-width: 1440px;
+    background-color: rgba(196, 196, 196, 1);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #submit {
+    margin: 0 auto;
+  
+    border-radius: 4px;
+    height: 40px;
+    width: 120px;
+  
+    background-color: rgba(247, 157, 29, 1);
+  }
+  
+  #mail {
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .followUsOnInstagram {
+    margin: auto;
+    max-width: 1440px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  #bottomButtons {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  #bottomButtons li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .pad {
+    padding-right: 20px;
+  }
+  .padBtm15px {
+    padding-bottom: 15px;
+  }
+  
+  .bottomImages {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #first {
+    margin-left: 50px;
+  }
+  #last {
+    margin-right: 50px;
+  }
+  .bottomImage {
+    width: 212px;
+    height: 212px;
+    background-image: url('https://picsum.photos/236/420');
+      background-size: cover !important;
+      background-position: center !important;
+      
+    
+  }
+  
+  .footer {
+    margin: auto;
+    max-width: 1440px;
+    height: 332px;
+    background-color: rgba(26, 26, 26, 1);
+  }
+  
+  #bottomLogo {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    height: 20px;
+    width: 126px;
+  }
+  
+  #explore {
+    color: rgba(110, 105, 98, 1);
+  }
+  
+  .navigationBottom {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  #bottomButtons {
+    padding-top: 30px;
+  }
+  
+  #copyright {
+    color: rgba(110, 105, 98, 0.5);
+    font-size: 13px;
+  }
+  .copy {
+    padding-top: 15px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(204, 204, 204, 0.1) rgba(26, 26, 26, 1) rgba(26, 26, 26, 1);
+  }
+  
+  .yellowColor {
+    color: rgba(247, 157, 29, 1);
+    background: none;
+  }
+  
+  .lightGrayColor {
+    color: rgba(160, 153, 143, 1);
+    background: none;
+  }
+  
+  .darkBrownColor {
+    color: rgba(110, 105, 98, 1);
+    background: none;
+  }
+  
+  .centeredText {
+    text-align: center;
+  }
+  
+  #mail {
+    size:60px;
+  }
+  
+  @media (max-width:768px) {
+    .navigationBar {
+      display: none;
+    }
+    .cardImage {
+      width: 105px;
+    }
+  
+    #submit {
+      width: 60px;
+    }
+  
+    #mail {
+      size: "30";
+    }
+    #sub {
+      font-size: small;
+    }
+    #foll {
+      font-size: small;
+    }
+    #choo {
+      font-size: small;
+    }
+    .latestPosts {
+      display: none;
+    }
+  
+    #sideBar {display: none;}
+    
+    #featExp {
+      font-size: small;
+    }
+  
+    #pop {
+      font-size: small;
+    }
+    .roundButton {
+      font-size: 20px;
+      height: 70px;
+      width: 70px;
+      
+    }
+   
+    .slides {
+      display: block;
+    }
+    .slogan {
+      display: none;
+    }
+
+    .bottomImage {
+      height: 30px;
+      width: 30px;
+    }
+
+    .categories {
+      display: none;
+    }
+  }
+
